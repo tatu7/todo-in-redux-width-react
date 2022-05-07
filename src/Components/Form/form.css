@@ -1,0 +1,7 @@
+.form--search input {
+  width: 85%;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  outline: none;
+}

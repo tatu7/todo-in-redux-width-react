@@ -1,0 +1,44 @@
+.cards {
+  margin: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  height: 250px;
+  background-color: crimson;
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+}
+.card textarea {
+  width: 94%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+}
+.card--footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 8px;
+}
+.card--footer button {
+  background-color: transparent;
+  height: 30px;
+  padding: 6px 12px;
+  margin-right: 10px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.card--footer button:hover {
+  background-color: white;
+}
+.card--edit-btn {
+  width: 75px;
+  cursor: pointer;
+}
